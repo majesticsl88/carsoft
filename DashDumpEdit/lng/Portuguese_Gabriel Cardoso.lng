@@ -1,0 +1,47 @@
+Transferencia de Dados para Quadrantes e mods(vdo immo2/3 e bosch-motometer immo3);Página de Descrição (link)
+Transferir informações para swap de Quadrante/ECU;Info das Chaves, Info da Centralina(ECU), VIN ID, IMMO ID, Login, Kilometragem
+Transferir informações de velocímetro (vdo immo2/3, audi);Escolher esta opção se novo para transferir a escala do velocimetro antigo para o novo
+Transferir informações de conta rotações (vdo immo2/3, audi);Escolher esta opção se novo para transferir a escala do conta rotações antigo para o novo
+Transferir código de casamento do radio (vdo immo2/3);o Código do Radio precisa de estar presente no Quadrante caso contrário o Radio irá pedir Login. Aplicavel apenas em transferencias de Immo 2 para Immo 2, vw501 para vw501, vw503 para vw503
+Distance to empty (vdo/bosch-motometer immo3);DTE
+Trocar fonte da temperatura exterior: sinal Analógico ou CAN (apenas vdo immo3);trocar fonte da temperatura exterior: sinal Analógico ou CAN (em testes) (apenas vdo immo3)
+Mod de Luz Cruise Control(apenas vdo immo3);Este mod active o LED do CC apenas quando é premido o botão Set e é definida uma velocidade de CC
+Mod de iluminação (apenas vdo immo3);Também conhecido como "Lit Needles" em inglês, mod comum q permite iluminar diferentes partes do Quadrante
+Desactivado,apenas Displays,apenas Escalas,apenas Displays e Escalas,apenas Ponteiros,apenas Displays e Ponteiros,apenas Ponteiros e Escalas,Tudo Iluminado;
+Tudo Iluminado (vdo immo2/immo3 audi <2001);Esta opção é exclusivamente para Quadrantes vdo immo2/immo3 audi <2001
+Start :);
+Questões, likes, donativos aqui:;
+Acordo de Licença:;
+1. Este software (SW) é freeware e distribuido "as is".;2. SW apenas para uso pessoal, nunca para fins comerciais.;3. O Autor NÃO se responsabiliza por danos ou informação perdida com o uso deste SW.
+Eeprom não suportada;Eeprom não está correcta
+Nova imagem de eeprom criada. Fechar o Programa? ;Feito
+Introduzir o VIN ID;Deve introduzir o VIN ID aquando feito swap de quadrante immo 2 para immo 3.;Não há qualquer tipo de verificação de introdução de um VIN correcto.;Próximo>;Número de caracteres inválido!;Erro
+Gasolina (apenas vdo immo3); Luz de Velas Incandescentes desactivada. Use esta opção aquando feito swap de Quadrante Diesel para Gasolina;Diesel (apenas vdo immo3);Luz de Velas Incandescentes activa. Use esta opção aquando feito swap de Quadrante Gasolina para Diesel
+Calibração de Velocímetro para velocidade real(GPS).;Introduza o valor mostrado no Velocímetro quando atingir 100km/h no GPS. Assim obterá a velocidade no Velocímetro igual à medida por GPS.;km/h (vdo immo3);Velocímetro a 100km/h no GPS:
+Correcção do indicador de nível combustivel.;Isto só é aplicavel a possuidores de MultiMFA/ColorMFA! NÃO muda o ponteiro e escala do indicador de nível de combustível ;l (apenas vdo immo3);Volume real do tanque de combustivel:
+Ficheiro original;
+Ñan Não houve transferencia de dados para o dump escolhido;Erro;Ñan Não houve transferencia de dados para o dump escolhido;Erro;Ñan Não houve transferencia de dados para o dump escolhido;Erro;Ñan Não houve transferencia de dados para o dump escolhido;Erro;Ñan Não houve transferencia de dados para o dump escolhido;Erro
+Verificar actualizações;Tem a versão mais recente.>Nova versão disponível>Data>Update?>Verificação do Update falhada. Tentar de novo.
+O patch de Needles sweep não é aplicável a esta versão de ROM;O patch de Needles sweep não é aplicável a esta versão de ROM;Needles sweep Off (vdo immo3),Needles sweep (apenas vdo immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);O "Needle Sweep" é também conhecido como "Staging", processo de varrimento dos ponteiros entre limites das Escalas;source:;feito por Bodie
+Aumento do brilho do Display MFA:;Pode ajudar no caso de falta de visibilidade do Display quando a temperatura é mais elevada (para aplicar - desligar a alimentação do quadrante por 1min);feito por elpaso544
+Aguarde por favor, Update em curso…;Programa actualizado com sucesso.;O Update demorou demasiado.Feche o programa e actualize manualmente.;Feche o programa e vá à página de download
+Obrigado pelo suporte:;
+Desactivar o sensor de nível e temperatura de oleo (G266) (apenas vdo immo2/3);Desactivar o sensor G266. To enable coding with oil level / temperature xxx1x and xxx2x
+Obtenha o seu nome aqui :);Dnepropetrovski Octavia Tour Club
+Mensagem de 'Welcome' quando ligada a ignição (apenas Quadrantes vdoimmo3 FullFIS);Não funciona no caso de erros ou aviso de cinto de segurança activo
+detalhes;Detalhes do mod de Cruise Control
+Transferir o ultimo digito do coding do Quadrante (inclui o valor-k) (apenas vdo immo3);Valor-K - Número de Impulsos por distância, valor obtido na cx de velocidades usado para calcular a velocidade
+Kilometragem actual no topo do conta kilometros (apenas vdo immo3); Display Conta Kilometros tipo vw503
+Não aplicar os mods;Usar esta opção se pretender criar um dump/imagem de eeprom sem mods
+Aviso tampa da mala (apenas vdo immo3);Aviso porta da mala
+Volume de sons (vdo immo2/3):;Frequência/Tom dos Sons (apenas vdo immo3):;estilo do Gong(som de aviso) (apenas vdo immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Off;Predefinido,Opção 1,Opção 2,Opção 3;Curto,Longo
+Transferir informação de temperatura de motor(apenas vdo immo3);Transferir calibração da escala de temperatura do motor;Transferir informação de nível de combustível (apenas vdo immo3);Transferir calibração da escala de nível de combustível
+Escolher o dump/imagem da eeprom original para transferencia de dados ou aplicar mods;Escolha o destino da nova dump/imagem da eeprom;Escolher ficheiro original no arranque
+Gong (vdo immo2/3);Gong — aviso sonoro de porta aberta e chave na ignição
+Informaçãos CAN-BUS(apenas vdo immo3): Standard,Definir ABS como fonte de Velocidade (pode afectar o Cruise Control e desactivar o mesmo),Temperatura do motor via CAN (para Quadrantes W8);
+Desactivar mensagem de immobilizador activado (vdo immo2/3);Desactivar mensagem e som de immobilizador activado. Usado aquando usada uma centralina com immo off.
+Definir Quadrante como Novo (apenas vdo immo3 audi); Define quadrante como novo para poder casar com novo carro.
+Mostrar consumo médio de 15,5L/100km a frio (vdo immo3);Mostrar consumo médio de 15,5L/100km quando liga o motor a frio em vez de 99,9L/100km;detalhes
+Luminosidade dos displays relógio/conta quilometros (vdo immo3):;Luminosidade das escalas(vdo immo3):;Luminosidade dos ponteiros (vdo immo3):;Irá funcionar correctamente se o ajuste Manual(Rheostato) não for usado
+Aviso de Cinto de Segurança Inteligente (apenas immo3 vwk503):;Aviso Básico>Aviso "US style" (o coding do quadrante terá q ser +10xxx)>Aviso "Euro-NCAP" (funciona para países de coding 0,1,4);detalhes
+Desactivar aviso de gelo na estrada (para ColorMFA vdo immo3);

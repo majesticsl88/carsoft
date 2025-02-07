@@ -1,0 +1,50 @@
+Data transfer for Instrument Clusters, and mods (vdo immo2/3 and bosch-motometer immo3);Description page (link)
+Transfer matching data during Instrument Cluster/ECU Swap;Keys data, Matching to Engine ECU, VIN ID, IMMO ID, Login, Mileage
+Transfer of speedometer gauge data (vdo immo2/3, audi);Choose this option if you swap speedometer scale from old to new cluster
+Transfer of tacho gauge data (vdo immo2/3, audi);Choose this option if you swap tacho scale from old to new cluster
+Transfer radio matching code (vdo immo2/3);Radio matching code need to be in Cluster eeprom otherwise Radio ask to enter Login. Applicable only for transfer from Immo 2 to Immo 2, vw501 to vw501, vw503 to vw503
+Distance to empty (vdo/bosch-motometer immo3);DTE
+Switch outside temperature source: Analog signal or CAN (vdo immo3 only);Switch outside temperature source: Analog signal or CAN (under testing) (vdo immo3 only)
+Cruise lamp mod (vdo immo3 only);Cruise LED enabled only when speed is Set
+Dash Illumination mod (vdo immo3 only);Also known as "Lit Needles" as this is the most commonly selected option
+Disabled,Displays only,Gauges only,Displays and gauges only,Needles only,Displays and needles only,Needles and Gauges only,All lit up;
+All lit up (vdo immo2/vdo immo3 audi before 2001);Only this option applicable for vdo immo2/immo3 audi <2001 clusters
+Start :);
+All questions, likes, donates please refer:;
+Licence agreement:;
+1. This SW is freeware and distributed as it is.;2. SW for private use only and not for commecial purpose.;3. Author does not response for any damages or information loose in connection with using of this SW.
+Eeprom does not supported;Eeprom is not correct
+New eeprom created. ;Done
+Enter car VIN ID;You may enter VIN ID during swap immo 2 to immo 3 cluster.;There is NO checking for VIN typing correctness.;Next>;Entered incorrect quantity of characters!;Error
+Petrol (vdo immo3 only);Glowplug Light disabled. Use this option during swap from Diesel to Petrol Cluster;Diesel (vdo immo3 only);Glowplug Light enabled. Use this option during swap from Petrol to Diesel Cluster
+Speedo calibration to real.;Enter value on speedometer measured at 100km/h per GPS. As result speedometer value is equal to GPS measured speed.;km/h (vdo immo3);You speed at 100km/h per GPS:
+Correction of Fuel tank indication.;It is applicable for MultiMFA/ColorMFA owners only! Does not change fuel gauge;l (vdo immo3 only);Real volume of fuel tank to be entered:
+Source file;
+Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error
+Check for update;You have the latest version.>It is available new version>dated>Update?>Update check failed. Try again later.
+Needles sweep patch is not applicable for your Cluster ROM version;Needles sweep patch is not applicable for your Cluster ROM version;Needles sweep Off (vdo immo3),Needles sweep (vdo immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Needles sweep during ignition on;source:;thõ to Bodie and Hayperek
+Icrease of MFA display brightness on:;May help in case of low MFA display brightness with high environment temperature (to apply - turn off the power cluster 1min);thõ to elpaso544
+Wait please, program is updating…;Program updated successfully.;The update lasts too long, close the application, and update the program manually.;Close the application and open the download page
+Thanks for the support:;
+Disable the oil level and temperature sensor G266 (vdo immo2/3);Disable the G266 sensor. To enable coding with oil level / temperature xxx1x and xxx2x.
+Disable ads :);Dnepropetrovski Octavia Tour Club
+"Welcome" message with ignition on (FullFIS clusters only) (vdo immo3 only);Do not work if any error exist or seat belt warning enabled
+details;Details of cruise mod
+Transfer last digit of sw coding (including k-value) (vdo immo3 only);K-Value - Distance Impulse Number
+Current milleage on top of odometer display (vdo immo3 only); Odometer display vw503 type
+Do not apply mods to new dump;Use this option if no mods applied
+Rear door warning (vdo immo3 only);Rear door warning
+Sounds volume (vdo immo2/3):;Sounds frequency (vdo immo3 only):;Gong style (vdo immo3 only):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Off;Default,Option 1,Option 2,Option 3;Short,Long
+Transfer engine temperature gauge calibrations (vdo immo3 only);Transfer engine temperature gauge calibration;Transfer fuel gauge calibrations (vdo immo3 only);Transfer fuel gauge calibrations
+Choose sourse dump for data transfer or mods applying;Choose destination dump;Choose source file on start-up
+Gong manner with driver door open and ignition on (vdo immo2/3); Note that Country soft coding be changed to Saudi and odometer indication switch to km
+Can bus functions (vdo immo3 only): By default,ABS as source of speed (cruise control may not work),Coolant temperature by CAN (for W8 clusters),ABS as source of speed and coolant T by CAN (Cruise control may not work);Can bus functions Sharan (vdo immo3 only): By default;
+Disable "immobil activated" message (vdo immo2/3);Disable "immobil activated" message and warning beep. Used for installing Dash to immo off car.
+Set dash as New (vdo immo3 audi only); Set dash as New for matching to Car (New or replacement cluster)
+Show average fuel consumption from 15,5L/100km (vdo immo3);Cold car starting show average fuel consumption from 15,5L/100km instead of 99,9L/100km;details
+Brightness of clock/odometer displays (vdo immo3):;Brightness of scales (vdo immo3):;Brightness of needles (vdo immo3):;It will proper work if do not use manual light control (Rheostat)
+Intelligent Seat Belt Warning (immo3 vwk503 only):;Basic Seat Belt Warning>"US style" Seat Belt Warning (must be coding +10xxx)>Euro-NCAP style (works for countries coding 0,1,4);details
+Disable Black ice warning (for ColorMFA vdo immo3);
+Immo Off (eeprom me7.5);Immobilaizer off in eeprom ecu (Me7.5)
+Cooling T show 90C within range:;Cooling temprerature show 90 degC within following range;to;deg.C (vdo immo2/3)
+Multi-wheel with CAN-bus (vdo immo3);Multi-wheel equiped with CAN relay

@@ -1,0 +1,50 @@
+﻿Transfer Date Ceasuri de bord  si modificari (vdo immo2/3 si bosch-motometer immo3);Detalii (link)
+Transfer date de imperechiere pentru schimbarea ceasurilor de bord/ECU;Date chei, Imperechiere cu ECU, VIN ID, IMMO ID, Login, Kilometri
+Transfer scala Vitezometru (vdo immo2/3, audi);Alegeti aceasta optiune daca schimbati scala vitezometrului de la cel vechi la cel nou
+Transfer scala Turatie (vdo immo2/3, audi);Alegeti aceasta optiune daca schimbati scala turometrului de la cel vechi la cel nou
+Transfer cod imperechiere radio (vdo immo2/3);Codul de imperechiere radio trebuie stocat in memoria ceasurilor, in caz contrar Radioul va cere Pin-ul. Aplicabil numai pentru transferul de la Immo 2 la Immo 2, vw501 la vw501, vw503 la vw503
+Kilometri pana la pompa/ Range (vdo/bosch-motometer immo3);DTE
+Schimbare sursa temperatura exterioara: Semnal analog sau CAN (Doar vdo immo3);Schimbare sursa temperatura exterioara: Semnal analog sau CAN (in testare) (Doar vdo immo3)
+Martor pilot automat (Doar vdo immo3);Martor pilot automat aprins doar cand este activ
+Modificare iluminat (Doar vdo immo3);Cunoscut sub numele de "Ace Aprinse", deoarece aceasta este optiunea cea mai frecvent selectata
+Dezactivat,Doar display-uri,Doar Scala,Display-uri si Scala,Doar Acele,Display-uri si ace,Acele si Scala,Totul aprins;
+Totul aprins (vdo immo2/immo3 audi <2001);Aceasta optiune este aplicabila doar ceasurilor vdo immo2/immo3 audi <2001
+Start :);
+Pentru intrebari, like-uri, donatii contactati:;
+Acord de folosire:;
+1. Acest SW este gratuit si distribuit asa cum este. SW numai pentru uz personal; si nu pentru scopuri comerciale; Autorul nu raspunde pentru eventualele daune sau informatii pierdute in legatura cu utilizarea acestui SW.
+Eeprom-ul nu este suportat;Eeprom-ul nu este corect
+Eeprom nou creat. Inchide programul? ;Gata
+Introduceti seria VIN ;Este posibil sa introduceti seria VIN in timpul procesului de inlocuire a ceasurilor immo 2 la immo 3.;Nu exista nici o verificare pentru corectarea textului VIN.;Urmatorul>;Numarul de caractere este gresit!;Eroare
+Benzina (Doar vdo immo3);Martor bujie dezactivat. Utilizati aceasta optiune in timpul transferului de la Diesel la Benzina;Diesel (Doar vdo immo3);Martor bujie activat. Utilizati aceasta optiune in timpul transferului de la Benzina la Diesel
+Calibarare vitezometru la valoarea reala.;Introduceti valoarea de pe vitezometru masurata la 100 km / h pe GPS. Ca rezultat, valoarea vitezometrului este egala cu viteza masurata de GPS.;km/h (vdo immo3);Viteza pe ceasuri la  100km/h pe GPS:
+Corectia indicatorului de combustibil.;Este valabil numai pentru MultiMFA / ColorMFA! Nu schimba scala de combustibil;l (vdo immo3);Introduceti valaorea reala a rezervorului de combustibil:
+Fisier sursa;
+Nu puteti transfera date catre dump-ul selectat;Eroare;Nu puteti transfera date catre dump-ul selectat;Eroare;Nu puteti transfera date catre dump-ul selectat;Eroare;Nu puteti transfera date catre dump-ul selectat;Eroare;Nu puteti transfera date catre dump-ul selectat;Eroare
+Verifica pentru update;Ai deja ultima versiune.>Este disponibila o noua versiune>data>Actualizati?>Verificarea ultimei versiuni nu a reusit. Incearca mai tarziu.
+Functia Needles sweep nu se poate activa pe aceasta varianta de ROM;Functia Needles sweep nu se poate activa pe aceasta varianta de ROM;Needles sweep Off (vdo immo3),Needles sweep (Doar vdo immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Needles sweep la punerea contactului;Sursa:;Multumiri Bodie
+Crestere luminozitate display MFA:;Poate ajuta in cazul in care display-ul MFA are o luminozitate scazuta la temperaturi ridicate (pentru aplicare opriti ceasurile pentru 1 minut);Multumim elpaso544
+Te rog asteapta, programul se actualizeaza…;Programul a fost actualizat cu succes.;Actualizarea dureaza prea mult, inchide aplicatia, si actualizeaza programul manual.;Inchide aplicatia si deschide pagina de descarcare
+Multumim pentru suport:;
+Dezactiveaza senzorul de nivel ulei si temperatura G266 (Doar vdo immo2/3);Dezactivare senzor G266. To enable coding with oil level / temperature xxx1x and xxx2x
+Scrie-ti numele :);Dnepropetrovski Octavia Tour Club
+Mesaj "Welcome" la punerea contactului (Doar ceasurile Maxidot) (Doar vdo immo3);Nu functioneaza daca exista erori sau martorul de centura este activat
+Detalii;Detalii Pilot automat
+Transfera ultima cifra a codari sw (include valoarea k) (Doar vdo immo3);Valoarea K- Numar distanta impulsuri
+Km actuali in partea de sus a display-ului de Km (Doar vdo immo3); Afisajul kilometrajului vw503
+Nu aplicati modificari la dump-ul nou; Utilizati aceasta optiune daca nu s-au aplicat modificari
+Avertizare portiera spate (Doar vdo immo3);Avertizare portiera spate
+Volum sunet (vdo immo2/3):;Frecventa Sunet (Doar vdo immo3):;Stil Gong (Doar vdo immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Oprit;Original,Optiunea 1,Optiunea 2,Optiunea 3;Scurt,Lung
+Transfera scala pentru temperatura motorului (Doar vdo immo3);Transfera scala pentru temperatura motorului;Transfera scala pentru combustibil (Doar vdo immo3);Transfera scala pentru combustibil
+Alege fisierul sursa pentru transferul de date sau aplicarea de modificari;Alege fisierul de destinatie;Alege fisierul sursa la pornire
+Sunet Gong (vdo immo2/3);Sunet Gong — sunet la deschiderea portierei cu cheia in contact
+Functii Can bus (vdo immo3): Original,ABS ca sursa pentru viteza (Pilotul Automat poate sa nu functioneze),Temperatura antigel data de CAN (Pentru ceasurile W8);
+Dezactivare mesaj "immobil activated"(vdo immo2/3);Dezactivare mesaj "immobil activated" si beep-ul de avertizare. pentru masinile cu immo off.
+Setare ceasuri ca "Noi"(Doar Audi vdo immo3); Setare ceasuri ca "Noi" pentru imperechierea cu masina (Ceasuri noi sau folosite)
+Afisare consum mediu de la  15,5L/100km (vdo immo3);La pornirea la rece va afisa un consum mediu de la 15,5L/100km in loc de 99,9L/100km;Detalii
+Luminozitatea display-ului de la ceasuri/kilometri (vdo immo3):;Luminozitatea scalelor (vdo immo3):;Luminozitatea acelor (vdo immo3):;Va functiona corect daca nu folositi reglajul manual (Reostat)
+Martor centura siguranta inteligent (Doar immo3 vwk503):;Martor centura normal >Martor centura "US style" (codarea trebuie sa fie +10xxx)>Euro-NCAP style (functioneaza pentru tarile cu codarea 0,1,4);Detalii
+Dezactivare martor inghet (pentru ColorMFA vdo immo3);
+Immo Off (eeprom me7.5);Immobilizator oprit in eeprom ecu (Me7.5)
+Anitigel la 90C in intervalul:;Valoarea la care ceasul arata 90 gradeC in intervalul de la;la;grade.C (vdo immo2/3)
+Volan multifunctional cu CAN-bus (vdo immo3);Volan multifunctional echipat cu releu CAN 

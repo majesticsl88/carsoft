@@ -1,0 +1,50 @@
+Duomenu perdavimas prietaisu grupems ir modifikacijoms (vdo immo2/3 ir bosch-motometer immo3); Apraso puslapis (nuoroda)
+Perkelkite atitinkamus duomenis prietaisu skydelio/ECU keitimo metu; raktu duomenys, suderinimas su variklio ECU, VIN ID, IMMO ID, prisijungimas, rida
+Spidometro matuoklio duomenu perkelimas ([vdo immo2/3], [Audi]); Pasirinkite sia parinkti, jei keiciate spidometro skale is senos i nauja grupe
+Tachometro duomenu perkelimas ([vdo immo2/3], [Audi]); pasirinkite sia parinkti, jei pakeisite tacho skale is senos i nauja grupe
+Perkelti radijo atitikimo koda (vdo immo2/3); Radijo atitikimo kodas turi buti grupeje [eeprom], kitaip radijas paprasys ivesti prisijungima. Taikoma tik perkelimui is [Immo 2] i [Immo 2], [vw501] i [vw501], [vw503] i [vw503]
+Atstumas iki tustumos (vdo/bosch-motometras immo3); DTE
+Perjungti lauko temperaturos saltini: analoginis signalas arba CAN (tik [vdo immo3]); Perjungti isorines temperaturos saltini: analoginis signalas arba CAN (bandoma) (tik [vdo immo3])
+Kruizo lempos modas (tik [vdo immo3]); [Cruise] sviesos diodas ijungiamas tik tada, kai nustatytas greitis
+Bruksnelio apsvietimo modas (tik [vdo immo3]); Taip pat zinomas kaip [Apsviestos adatos], nes tai dazniausiai pasirenkama parinktis
+Isjungta, Tik ekranai, Tik matuokliai, Tik ekranai ir matuokliai, Tik adatos, Tik ekranai ir adatos, Tik adatos ir matuokliai, Visi sviecia;
+Viskas sviecia ([vdo immo2]/[vdo immo3 audi] iki 2001 m.); Tik si parinktis taikoma [vdo immo2/immo3 audi <2001] grupems
+Pradeti :);
+Visus klausimus, patinka, dovanoti prasome kreiptis :;
+Licencijos sutartis :;
+1. sis SW yra nemokama programa ir platinama tokia, kokia yra.; 2. SW skirtas tik asmeniniam naudojimui, o ne komerciniais tikslais.; 3. Autorius neatsako uz zala ar informacija, prarasta naudojant si SW.
+[Eeprom] nepalaikomas; [Eeprom] neteisingas
+Sukurtas naujas [eeprom]. Uzdaryti programa? ;Padaryta
+Iveskite automobilio VIN ID; VIN ID galite ivesti keisdami immo 2 i immo 3 grupe.; NERA tikrinama, ar teisingas VIN ivedimas.; Kitas>; Ivestas neteisingas simboliu kiekis!; Klaida
+Benzinas (tik [vdo immo3]); Kaitinimo zvakes lempute isjungta. Naudokite sia parinkti, kai keiciate dyzelini i benzinini klasteri; dyzelinas (tik [vdo immo3]); ijungta [Glowplug Light]. Naudokite sia parinkti, kai keiciate benzina i dyzelini klasteri
+[Speedo] kalibravimas i tikraji.; Iveskite spidometro reiksme, ismatuota 100 km/h, esant vienam GPS. Kaip rezultatas, spidometro verte yra lygi GPS ismatuotam greiciui.; Km/h (vdo immo3); Greitis 100 km/h per GPS:
+Kuro bako indikacijos pataisymas.; Tai taikoma tik MultiMFA/ColorMFA savininkams! Nekeicia degalu matuoklio; l (tik [vdo immo3]); Ivedamas tikrasis degalu bako turis:
+saltinio failas;
+Notneperduoti duomenu i pasirinkta savartyna; Klaida; transferneperduoti duomenu i pasirinkta savartyna; Klaida; Ñneperduoti duomenu i pasirinkta savartyna; Klaida; pasirinkta savartynas; Klaida
+Patikrinkite, ar nera atnaujinimo; turite naujausia versija.> Galima nauja versija> data> Atnaujinti?> Atnaujinimo tikrinimas nepavyko. Pabandyti dar karta veliau.
+Adatu valymo pleistras netaikomas jusu klasterio ROM versijai; Adatu valymo pleistras netaikomas jusu klasterio ROM versijai;Needles sweep Off (vdo immo3), Adatu valymas (tik [vdo immo3]),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3); Adatos sluoja uzdegimo metu; saltinis:; tho to Bodie
+Padidejes MFA ekrano ryskumas:; gali padeti esant mazam MFA ekrano ryskumui ir aukstai aplinkos temperaturai (norint pritaikyti - isjunkite maitinimo bloka 1 minute); nuo to iki elpaso544
+Palaukite, programa atnaujinama ...; Programa sekmingai atnaujinta.; Atnaujinimas trunka per ilgai, uzdarykite programa ir atnaujinkite programa rankiniu budu.; Uzdarykite programa ir atidarykite atsisiuntimo puslapi
+Aciu uz palaikyma:;
+Isjunkite alyvos lygio ir temperaturos jutikli G266 (vdo immo2/3); isjunkite G266 jutikli. Igalinti kodavima naudojant alyvos lygi / temperatura xxx1x ir xxx2x.
+Irasyk savo varda :); Dnepropetrovski Octavia Tour Club
+[Sveiki atvyke] pranesimas su ijungtu uzdegimu (tik [FullFIS] klasteriai) (tik [vdo immo3]); nedirbkite, jei yra klaida arba ijungtas saugos dirzo ispejimas
+Issami informacija apie kruizo mod
+Perkelkite paskutini sw kodavimo skaitmeni (iskaitant k reiksme) (tik [vdo immo3]); K verte-atstumo impulsu skaicius
+Dabartinis kilometru skaicius ant odometro ekrano (tik [vdo immo3]); Odometro ekranas vw503 tipas
+Netaikykite modifikaciju naujam iskelimui; Naudokite sia parinkti, jei modifikacijos netaikomos
+Ispejimas apie galines duris (tik [vdo immo3]); Ispejimas apie galines duris
+Garso garsumas (vdo immo2/3) :; Garsu daznis (tik [vdo immo3]) :; Gongo stilius (tik [vdo immo3]) :; 100%, 90%, 80%, 70%, 60%, 50%, 40%, 30 %, 20%, 10%, Isjungta; Numatytasis, 1 parinktis, 2 parinktis, 3 parinktis; Trumpas, ilgas
+Perkelti variklio temperaturos matuoklio kalibravima (tik [vdo immo3]); perkelti variklio temperaturos matuoklio kalibravima; perkelti degalu matuoklio kalibravima (tik [vdo immo3]); perkelti degalu matuoklio kalibravima
+Duomenu perdavimui arba taikomiems modams pasirinkite sourse dump; pasirinkite paskirties iskelti; paleisdami pasirinkite saltinio faila
+Gongo budas atidarius vairuotojo duris ir ijungus degima (vdo immo2/3); Atminkite, kad salies minkstas kodavimas turi buti pakeistas i Saudo Arabija, o odometro indikatorius - i km
+Galimos magistrales funkcijos (tik [vdo immo3]): pagal numatytuosius nustatymus ABS kaip greicio saltinis (greicio palaikymo sistema gali neveikti), ausinimo skyscio temperatura pagal CAN (W8 grupems), ABS kaip greicio saltinis ir ausinimo skystis T pagal CAN (greicio palaikymo sistema gali neveikti) darbas);
+Isjungti pranesima [Imobil aktyvuotas] (vdo immo2/3); Isjungti pranesima [Imobil aktyvuota] ir ispejamaji pyptelejima. Naudojamas [Dash] irengimui, norint ismontuoti automobili.
+Nustatyti bruksni kaip nauja (tik [vdo immo3 audi]); Bruksneli nustatyti kaip nauja, kad jis atitiktu automobili (naujas arba pakeiciamas klasteris)
+Rodyti vidutines degalu sanaudas nuo 15,5 l/100 km ([vdo immo3]); salto automobilio uzvedimas rodo vidutines degalu sanaudas nuo 15,5 l/100 km, o ne 99,9 l/100 km; issami informacija
+Laikrodzio/odometro ekranu ryskumas (vdo immo3) :; Svarstykliu ryskumas (vdo immo3) :; Adatu ryskumas (vdo immo3) :; Jis veiks tinkamai, jei nenaudosite rankinio sviesos valdymo ([Rheostat])
+Ismanusis saugos dirzo ispejimas (tik immo3 vwk503) :; Pagrindinis ispejimas apie saugos dirza> [JAV stiliaus] ispejimas apie saugos dirza (turi buti koduojama +10xxx)> [Euro-NCAP] stilius (tinka salims, koduojancioms 0,1,4); issami informacija
+Isjungti ispejima apie juodaji leda ([ColorMFA vdo immo3]);
+[Immo Off] ([eeprom me7.5]); [Immobilaizer] isjungtas eeprom ecu ([Me7.5])
+Ausinimo T rodo 90C diapazone:; Ausinimo temperatura rodo 90 ° C sekanciame diapazone; iki; deg.C (vdo immo2/3)
+Keliu ratu su CAN magistrale (vdo immo3); Daugiaraciai su CAN relemis

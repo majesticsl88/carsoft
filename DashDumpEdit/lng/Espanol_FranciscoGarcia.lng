@@ -1,0 +1,50 @@
+Transferir datos cuadro y modificaciones (vdo immo2/3 and bosch-motometer immo3);descripcion pagina (link)
+Transferencia de datos del cuadro de instrumentos/ECU; datos de llaves, adaptación a la ECU del motor, identificación de VIN, ID de IMMO, inicio de sesión, kilometraje
+Transferencia de datos del reloj de velocidad (vdo immo2 / 3, audi); Elija esta opción si cambia la escala del velocímetro del cuadro antiguo al nuevo
+Transferencia de datos reloj de RPM (vdo immo2 / 3, audi); Elija esta opción si cambia la escala del cuadro antiguo al nuevo
+Transferir el código de la radio (vdo immo2 / 3); El código de la radio debe estar en la eeprom; de lo contrario, la radio pide que ingrese el codigo. Aplicable solo para la transferencia de Immo 2 a Immo 2, vw501 a vw501, vw503 a vw503
+Autonomia (vdo/bosch-motometer immo3);DTE
+Cambiar modo temperatura exterior: Señal analogica o can (Solo vdo immo3);Cambiar modo temperatura exterior: Señal analogica o Can (En pruebas) (Solo vdo immo3)
+Luz Control de crucero (vdo immo3 only);luz control crucero encendida solo con velocidad fijada
+Modificar iluminacion del cuadro (Solo vdo immo3);También conocido como "Agujas skywalker" ya que esta es la opción más comúnmente seleccionada
+Desactivado,Solo pantallas,Solo Relojes,relojes y pantallas,Solo agujas,Pantallas y agujas,Agujas y relojes,Todo encendido;
+Todo encendido (vdo immo2/immo3 audi <2001);Esta opcion solo es para cuadros vdo immo2/immo3 audi <2001
+Empezar :);
+Todas las preguntas, agradecimientos y donativos porfavor referirse a :;
+Acuerdo de licencia:;
+1. Este sofware es gratuito se distribuye asi.;2. SW solo para uso privado y no para fines comerciales.;3. El autor no se hace responsable de los daños o informacion perdida por usar este progragama.
+Eeprom no soportada;Eeprom incorrcta
+Nueva Eeprom creada. Cerrar programa? ;Echo
+Introducir numero VIN;debes introducir el VIN ID durante el cambio de de cuadro immo 2 to immo 3 .;No se verifica la correcion del numero VIN.;Siguiente>;Cantidad de carateres erroneo!;Error
+Gasolina (Solo vdo immo3);Testigo calentadores desactivada .Usar esta opcion durante el cambio de diesel a Gasolina;Diesel (Solo vdo immo3);Testigo calentadores activada. Usar esta opcion durante el cambio de cuadro gasolina a diesel
+Calibracion velocidad real.;indicar velocidad a 100km/h por GPS. Como resultado, el valor del velocímetro es igual a la velocidad medida por el GPS.;Km/h (vdo immo3);tu velocidad a 100km/h por GPS:
+correjir aguja tanque gasolina.;Esto es aplicable solo a dueños con multiMFA/ColorMFA! No cambie el indicador de combustible; l.(Solo vdo immo3);Capacidad real tanque de gasolina lleno:
+Source file;
+Ñan No transferir datos al archivo seleccionado;Error;No transferir datos al archivo seleccionado;Error;No transferir datos al archivo seleccionado;Error;No transferir datos al archivo seleccionado;Error;No transferir datos al archivo seleccionado;Error
+Comprobar actualizaciones;Tienes la ultima version.>Hay una version nueva>anticuado>Actualizado?>Fallo al comprobar actualizacion. Probar otra vez.
+El parche del test de agujas no es aplicable para versión ROM de su cuadro;El parche del test de agujas no es aplicable para versión ROM de su cuadro;Needles sweep Off (vdo immo3),test de agujas (solo vdo immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);test de agujas al inicio;source:;Gracias Bodie
+Incrementar el brillo de la pantalla MFA:;Puede ayudar en caso de bajo brillo de la pantalla MFA con alta temperatura ambiental(para aplicar - cortar corriente del cuadro 1min);Gracias a elpaso544
+Espere porfavor, programa actualizando…;Actualizacion completada.;La actualización dura demasiado, cierra la aplicación y actualiza el programa manualmente.;Cerrar programa y abrir pagina de descarga
+Gracias por el apoyo:;
+Desactivar el sensor de nivel y temperatura de aceite G266 (Solo vdo immo2/3);Desactivar el sensor G266. To enable coding with oil level / temperature xxx1x and xxx2x
+Inscribe tu nombre :);Dnepropetrovski Octavia Tour Club
+Mensaje "Bienvenido" al poner el contacto (Solo cuadros FullFIS) (Solo vdo immo3);No funcionara si existe algun error o esta activado la alarma de cinturon de seguradad
+Detalles;Detalles mod luz control de crucero
+Transferir ultimo digito del codigo sw (incluso k-value) (Solo vdo immo3);K-Value - Numero de impulso de distancia
+poner kilometros totales en la parte alta de la pantalla (Solo vdo immo3); Typo de pantalla vw503
+No aplicar cambios al nuevo archivo;Usar esta opcion si no quieres aplicar cambios
+Advertencia de puerta trasera (Solo vdo immo3);Advertencia de puerta trasera
+Volumen de sonidos (vdo immo2/3):;Frecuencia de sonidos (Solo vdo immo3):;Estilo de gong (vdo immo3 only):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Apagado;Por defecto,Opcion 1,Opcion 2,Opcion 3;Corto,Largo
+Transferir calibracion reloj temperatura motor (Solo vdo immo3);Transferir calibracion reloj temperatura motor;transferir calibracion reloj combustible (Solo vdo immo3);Trasnferir calibracion reloj combustible
+Elija el volcado de origen para la transferencia de datos o la aplicación de modificaciones; Elija el volcado de destino; Elija el archivo de origen al iniciar
+Manera del gong (vdo immo2/3);Manera del gong — sonido al abrir puerta con contacto puesto
+Funciones can bus (Solo vdo immo3): Por defecto, ABS como fuente de velocidad (el control de crucero puede no funcionar),Temperatura del radiador por Can (Para cuadros w8);
+Desactivar mensaje "immobilizador activo" (vdo immo2/3);Desactivar mensaje y sonido de advertencia "immobilizador activo" . Se usa para instalar cuadros con inmo off.
+Establecer cuadro como nuevo (Solo vdo immo3 audi); Establecer cuadro como nuevo para que coincida con el coche (Nuevo o cuadro reemplazado)
+Mostrar consumo medio desde 15,5l/100km (vdo immo3);Consumo medio con coche frio desde 15,5L/100km instantaneo desde 99,9L/100km;detalles
+Brillo pantallas reloj y kilometros (vdo immo3):;Brillo de las escalas de velocidad y Rpm (vdo immo3):;Brillo de agujas (vdo immo3):;It will proper work if do not use manual light control (Rheostat)
+Advertencia inteligente cinturon de seguridad (Solo immo3 vwk503):;Advertencia basica cinturon de seguridad>"Estilo US" Advertencia cinturon seguridad (debe estar codificado +10xxx)>Estilo Euro-NCAP (Funciona en los codigos de pais 0,1,4);detalles
+Desactivar advertencia hielo en carretera (Para ColorMFA vdo immo3);
+Immo Off (eeprom me7.5);Desactivar inmo en ecu (Me7.5)
+Mostrar temp motor en 90C desde:;Mostrar temp motor en 90C desde;hasta;Grados (vdo immo2/3)
+Volante multifuncion CAN-bus (vdo immo3);Equipado con volante multifuncion con rele can

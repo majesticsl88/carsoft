@@ -1,0 +1,50 @@
+Datenübertragung und Modifikationen für Kombiinstrumente (VDO IMMO2/3 und Bosch-Motometer IMMO3);Link zur Beschreibungsseite
+Übertragen der Wegfahrsperre Daten/ECU;Keys, Anlernung ans Motorsteuergerät, Fahrgestellnummer, IMMO ID, Logincode, Kilometerstand
+Übertragen der Geschwindigkeitsmesser Daten (VDO IMMO2/3, Audi);Diese Option beim Austausch der Tachoskala vom alten zum neuen Tacho wählen
+Übertragen der Drehzahlmesser Daten (VDO IMMO2/3, Audi);Diese Option beim Austausch der Drehzahlmesserskala vom alten zum neuen Tacho wählen
+Übertragen des Radio Code (VDO IMMO2/3);Der Radio Code muss im Eeprom gespeichert sein, andernfalls fragt das Radio danach. Gilt nur für den Transfer von IMMO2 zu IMMO2, VWK501 zu VWK501, VWK503 zu VWK503
+Restkilometeranzeige (VDO/Bosch-Motometer IMMO3);Anzeige der Restkilometer in der MFA
+Signal für Außentemperatur: Analoges Signal oder CAN (VDO IMMO3);Umschalten der Signalquelle für Außentemperatur: Analogs Signal oder CAN-BUS (im Test!) (nur VDO IMMO3)
+GRA LED nur bei aktiver GRA (VDO IMMO3);GRA LED leuchtet nur bei Betrieb der Geschwindigkeitsregelanlage
+Beleuchtung (VDO IMMO3):;Auch bekannt als "Zeigerleuchten", da dies die am häufigsten gewählte Option ist
+Deaktiviert,Displays,Skalen,Displays und Skalen,Zeiger,Displays und Zeiger,Zeiger und Skalen,Vollständige Beleuchtung;
+Vollständige Beleuchtung (VDO IMMO2);Diese Option ist nur für VDO IMMO2 Kombiinstrumente verfügbar
+Ausführen;
+Fragen, Danksagungen und Spenden bitte an:;
+Lizenzvereinbarung:;
+1. Diese Software ist Freeware und wird als solche verteilt.;2. Nur zur privaten Nutzung nicht für den gewerblichen Einsatz.;3. Der Autor übernimmt keine Haftung für Schäden oder Informationen, die im Zusammenhang mit der Nutzung dieser Software entstehen.
+Eeprom wird nicht unterstützt;Eeprom Fehler
+Neue Eeprom Datei erstellt. Programm jetzt beenden? ;Erfolgreich!
+Fahrgestellnummer eingeben;Bei IMMO2 zu IMMO3 Tacho muss die Fgst.Nr. eingegeben werden.;Die korrekte Eingabe der Fahrgestellnummer wird NICHT überprüft!;Weiter>;Falsche Anzahl an Zeichen eingegeben!;Fehler
+Benzin (VDO IMMO3);Vorglühleuchte deaktiviert. Diese Option zum Wechsel von Diesel zu Benzin Tacho verwenden;Diesel (VDO IMMO3);Vorglühleuchte aktiviert. Diese Option zum Wechsel von Benzin zu Diesel Tacho verwenden
+Tachoangleichung;Wert für den Tacho, gemessen bei 100km/h per GPS. Der Tacho zeigt dann den Wert der GPS-Geschwindigkeit an.;km/h (VDO IMMO3);GPS-Geschwindigkeit bei 100 km/h:
+Korrektur der Tankanzeige.;Nur verwendbar bei MultiMFA/ColorMFA! Die analoge Tankanzeige wird nicht geändert;liter (VDO IMMO3);Volumen des Kraftstofftank:
+Quelldatei;
+Daten können nicht in den ausgewählten Dump übertragen werden;Fehler;Daten können nicht in den ausgewählten Dump übertragen werden;Fehler;Daten können nicht in den ausgewählten Dump übertragen werden;Fehler;Daten können nicht in den ausgewählten Dump übertragen werden;Fehler;Daten können nicht in den ausgewählten Dump übertragen werden;Fehler
+Programmupdate;Version ist aktuell.>Neue Version verfügbar>dated>Update?>Update überprüfung fehlgeschlagen. Versuche es später.
+Zeigerwischen ist für dieses ROM nicht anwendbar;Zeigerwischen ist für dieses ROM nicht anwendbar;Needles sweep Off (vdo immo3),Zeigerwischen (Staging) (VDO IMMO3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Zeigerwischen bei Zündung an;Quelle:;by Bodie
+Erhöhung der MFA-Helligkeit:;Kann bei niedriger MFA-Helligkeit und hoher Umgebungstemperatur helfen (Zum Aktivieren - Tacho eine Minute stromlos machen);by elpaso544
+Programm wird aktualisiert…;Programm erfolgreich aktualisiert;Das Update dauert zu lange, bitte Anwendung schließen und manuell aktualisieren.;Anwendung schließen und Download-Seite öffnen
+Danke für die Unterstützung:;
+Deaktivieren des Ölstands- und Temperatursensor G266 (VDO IMMO2/3);Deaktivierung G266 Sensor. Zum Aktivieren Codierung mit Ölstands- & Temperatursensor (xxx1x und xxx2x)
+Spenden :);Dnepropetrovski Octavia Tour Club
+"Willkommen" Meldung (Nur große MFA) (VDO IMMO3);Erscheint nicht wenn Fehlermeldungen existieren oder die Gurtwarnung aktiv ist
+Info;Details zum GRA LED Mod
+Übertragen der letzten Ziffer der Codierung (inkl. K-Wert) (VDO IMMO3);K-Wert - Wegstreckenkennzahl übertragen
+Kilometerstand über dem Kilometerzähler (VDO IMMO3); Kilometerzähler-Anzeige VWK503 Software
+Keine Mods in den neuen Dump übertragen;Diese Option auswählen wenn keine Mods übertragen werden sollen
+Warnung Heckklappe (VDO IMMO3);Warnhinweis bei offener Heckklappe
+Lautstärke (VDO IMMO2/3):;Ton Frequenz (VDO IMMO3):;Gong Typ (VDO IMMO3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Aus;Standard,Option 1,Option 2,Option 3;Kurz,Lang
+Übertragen Kalibrierung Wassertemperaturanzeige (VDO IMMO3);Kennlinie Wassertemperatur übertragen;Übertragen Kalibrierung Tankanzeige (VDO IMMO3);Kennlinie Tankanzeige übertragen
+Quelldatei (Eeprom Dump) für die Datenübertragung oder Modifikationen auswählen;Zieldatei auswählen;Quelldatei beim Start auswählen
+Gong-Verhalten (offene Fahrertür und Zündung an) (VDO IMMO2/3); Bei Ländercodierung Saudi-Arabien wird der Ton der 120 km/h Warnung deaktiviert, der Warnton beim Öffnen der Fahrertür und eingeschaltener Zündung bleibt erhalten
+CAN-BUS Funktionen (VDO IMMO3): Standard,ABS als Geschwindigkeitssignal (GRA funktioniert nicht),Wassertemperatur über CAN (für W8 Tachos);
+Deaktivieren der "Wegfahrsperre aktiv" Meldung (VDO IMMO2/3);Deaktivieren des Warnton und "Wegfahrsperre aktiv" Meldung. Wird benötigt bei deaktivierter Wegfahrsperre
+Neumodus (nur VDO IMMO3 Audi); Setzt den Neumodus zum anlernen an das Fahrzeug (Neuer oder gebrauchter Tacho)
+Durchschnittsverbrauch bei 15,5L/100km beginnen (VDO IMMO3);Beginnt beim Kaltstart mit einem durchschnittlichen Kraftstoffverbrauch von 15,5L/100km anstelle von 99,9L/100km;Info
+Helligkeit der Uhr/Kilometerzähler Displays (VDO IMMO3):;Helligkeit der Skalen (VDO IMMO3):;Helligkeit der Zeiger (VDO IMMO3):;Funktioniert ordnungsgemäß wenn nicht manuell geregelt wird (Beleuchtungsdimmer)
+Intelligente Sicherheitsgurtwarnung (VDO IMMO3 VWK503):;Standardeinstellung>Gurtwarnung USA (Codierung +10xxx)>Gurtwarnung Euro-NCAP (für Ländercodierung 0,1,4);Info
+Glatteiswarnung deaktivieren (für ColorMFA VDO IMMO3);
+Wegfahrsperre ausschalten (IMMO OFF) (Eeprom ME7.5);Wegfahrsperre im Motorsteuergerät Eeprom aus (ME7.5)
+Wassertemp.-Anz. zeigt 90°C zwischen range:;Wassertemp.-Anzeige zeigt 90°C im definierten Bereich an;und;°C (VDO IMMO2/3)
+Multifunktionslenkrad mit CAN-Bus (VDO IMMO3);Multifunktionslenkrad mit CAN ausgestattet

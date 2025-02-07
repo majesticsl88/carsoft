@@ -1,0 +1,47 @@
+Trasferimento Dati Quadro strumenti e Modifiche (VDO Immo2/3 e Bosch-Motometer immo3);Dettagli (link)
+Trasferimento dei Dati per la Codifica del Quadro/ECU;Dati Chiavi, Accoppiamento con ECU, VIN ID, IMMO ID, Login, Chilometri
+Trasferimento Scala Velocita' (Vdo Immo2/3, Audi);Scegli questa opzione se vuoi cambiare i dati della Scala Velocita' dal vecchio al nuovo quadro
+Trasferimento Scala Giri (Vdo Immo2/3, Audi);Scegli questa opzione se vuoi cambiare i dati della Scala Giri dal vecchio al nuovo quadro
+Trasferimento Codice PIN RADIO(Vdo Immo2/3);Il codice della Radio deve trovarsi nella memoria del quadro, in caso contrario la Radio richiederà il Pin. Applicabile solo per il trasferimento da Immo2 a Immo2, da vw501 a vw501, da vw503 a vw503
+Attiva Autonomia (Vdo/Bosch-Motometer Immo3);Attiva l'autonomia sul Display
+Cambiare sorgente Temperatura esterna: Segnale analogico o CAN (Solo Vdo Immo3);Cambia la sorgente della Teperatura Esterna: Segnale analogico o CAN (in fase di Test) (Solo Vdo Immo3)
+Spia Cruise Control(Solo Vdo Immo3);Spia Cruise Control accesa solo quando rimane attivo
+Modifica stile illuminazione(Vdo Immo3);Modifica lo stile di illuminazione del Quadro
+Disattivato,Solo display,Solo luce di fondo,Display e luci di fondo,Solo Lancette,Display e Lancette ,Lancette e Fondo scala,Tutto acceso;
+Tutto acceso (Vdo Immo2/immo3 audi <2001);Questa opzione è applicabile solo ai quadri vdo immo2/immo3 audi <2001
+START!;
+Per domande, like, Donazioni Contattate:;
+Permesso d'uso:;
+1. Questo Software è gratuito e distribuito cosi' come è. Software solo per uso personale; e non per scopi Commerciali; L'autore non risponde per eventuali danni o informazioni perse riguardo l'utilizzo di questo Software;
+La Eeprom non è supportata;La Eeprom non è coretta
+Nuova Eeprom creata!. Vuoi chiudere il programma? ;Finito !
+Introduci il codice VIN;E'possibile introdurre il codice Vin durante il processo di sostituzione del quadro da Immo2 a Immo3.;Non esiste alcuna verifica di correzione del codice VIN.;Successivo>;Il numero di caratteri non è corretto!;Errore
+Benzina (Solo Vdo Immo3);Spia Candelette disattivata. Utilizzate questa opzione durante il trasferimento da un Quadro Diesel ad un Quadro Benzina;Diesel (Solo vdo immo3);Spia candelette attivata. Utilizzate questa opzione durante il trasferimeto da un Quadro Benzina ad un Quadro Diesel
+Calibrazione Scala velocita' (Valore reale);Introduci il valore della velocità misurata con il GPS a 100 km /h. Come risultato,la velocita'sul quadro e uguale a quella sul GPS;km/h (vdo immo3);Velocita'sul quadro a 100km/h con il GPS:
+Correzione indicatore combustibile.;Valido solo per MultiMFA / ColorMFA! Non cambia la scala del combustibile ;l (Vdo Immo3);Introduci il valore reale del serbatoio:
+FILE SORGENTE;
+Non si possono trasferire Dati al file Dump selezionato;Errore;Non si possono trasferire Dati al file Dump selezionato;Errore;Non si possono trasferire Dati al file Dump selezionato;Errore;Non si possono trasferire Dati al file Dump selezionato;Errore;Non si possono trasferire Dati al file Dump selezionato;Errore
+Verifica Aggiornamenti;Hai gia'l'ultima versione!.>E' disponibile una nuova versione>data>Aggiornare?>Impossibile verificare aggiornamenti!. Riprova piu' tardi.
+L'opzione Needles Sweep non si puo' attivare su questa ROM;L'opzione Needles Sweep non si puo' attivare su questa ROM;Needles sweep Off (vdo immo3),Needles Sweep (Solo Vdo Immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Calibrazione lancette con quadro acceso;Sorgente:;By Bodie
+Aumenta luminosita' Display MFA:;Aiuta nel caso in cui la luminosita' viene ridotta a causa della temperatura esterna elevata(dopo l'attivazione spegnere il quadro per 1 minuto);Grazie elpaso544
+Attendere prego, Il programma si aggiorna…;Aggiornamento effettuato con successo.;L'aggiornamento richiede molto tempo, Chiudi il programma, e aggiorna manualmente.; Chiudi il programma e apri la pagina di Download
+Grazie per il supporto:;
+Disattiva sensore livello olio e Temperatura G266 (Solo Vdo Immo2/3);Disattivare sensore G266. To enable coding with oil level / temperature xxx1x and xxx2x
+Scrivi il nome :);Dnepropetrovski Octavia Tour Club
+Messaggio "Benvenuto" con il quadro acceso (Solo quadro Maxidot) (Solo Vdo Immo3);Non funziona se ci sono errori o se la spia della cintura e' attiva
+Dettagi;Dettagli Cruise Control
+Trasferimento ultima cifra della codifica SW (include il valore  k) (Solo Vdo Immo3);Valore K- Numero distanza impulsi
+Km attuali nella parte superiore del display(Solo Vdo Immo3); Chilometraggio vw503
+Non applicare modifiche al nuovo File Dump; Utilizzate questa opzione se non sono state effettuate modifiche
+Attiva Spia Portellone(Solo Vdo Immo3);Attiva Spia Portellone
+Volume suono (Vdo Immo2/3):;Frequenza suono (Solo Vdo Immo3):;Stile Campanello (Solo Vdo Immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Disattivato;Originale,Opzione 1,Opzione 2,Opzione 3;Corto,Lungo
+Trasferimento Scala Temperatura Motore(Solo Vdo Immo3);Trasferimento Scala Temperatura Motore;Trasferimeto scala combustibile (Solo Vdo Immo3);Trasferimeto scala combustibile 
+Scegli il File Sorgente per il traferimento dei Dati;Scegli il file di destinazione;Scegli il file Sorgente all'avvio
+Suono Campanello(Vdo Immo2/3);Suono Campana :suono all'apertura della portiera con chiave inserita
+Funzioni Can bus (Vdo Immo3): Originale,ABS come sorgente per velocita'(Il cruise control puo' non funzionare),Temperatura liquido raffreddamento da CAN (Per quadri W8);
+Disattiva messagio "immobil Attivato"(Vdo Immo2/3);Disattiva messaggio "immobil activated" e suono di avvertimento. Per auto con IMMO OFF.
+Imposta quadro come "Nuovo"(Solo Audi Vdo Immo3); Imposta quadro come "Nuovo" per l'adattamento con l'auto(Quadro nuovo o usato)
+Mostra consumo medio da 15,5L/100km (Vdo Immo3);Con l'accensione a freddo mostrera' un consumo a partire da 15,5L/100km invece che 99,9L/100km;Dettagli
+Luminosita' display Orario/Chilometri (Vdo Immo3):;Luminosita' fondo scala (Vdo Immo3):;Luminosita' Lancette(Vdo Immo3):;Funziona solo se non usate il regolatore di luminosità
+Spia Cintura di sicurezza Intelligente (Solo Immo3 vwk503):;Spia cintura normale >Spia cintura "US style" (codifica con  +10xxx)>Euro-NCAP style (funziona solo su paesi con codifica 0,1,4);Dettagli
+Disativare spia Ghiaccio "Fiocco di neve"(solo per ColorMFA Vdo Immo3);

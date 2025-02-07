@@ -1,0 +1,50 @@
+Przenoszenie danych licznika i modyfikacje (VDO Immo2/3 i Bosch-Motometer Immo3);Strona Programu (link)
+Transfer danych podczas wymiany zegarów/ECU;Dane kluczy, dopasowanie do ECU, VIN ID, Immo ID, Login, Przebieg
+Transfer wyskalowania prêdkoœciomierza (VDO Immo2/3, Audi);Wybierz tê opcjê je¿eli chcesz przenieœæ wyskalowanie prêdkoœciomierza ze starych do nowych zegarów.
+Transfer wyskalowania obrotomierza (VDO Immo2/3, Audi);Wybierz tê opcjê je¿eli chcesz przenieœæ wyskalowanie obrotomierza ze starych do nowych zegarów.
+Transfer kodu do radia (VDO Immo2/3);Po transferze radio nie bêdzie ju¿ pytaæ o CODE (Login). Dotyczy transferu tylko z Immo 2 do Immo 2, vw501 do vw501, vw503 do vw503
+Aktywacja ' Zasiêgu na baku ' (VDO/Bosch-Motometer Immo3);Na FIS bêdzie mo¿liwy podgl¹d pozosta³ych km do przejechania na baku.
+ród³o sygna³u dla czujnika temp. zewnêtrznej: Analogowo lub CAN (Tylko VDO Immo3);
+Aktywacja ikonki tempomatu (Tylko VDO Immo3);Ikonka aktywna tylko podczas jazdy na tempomacie.
+Modyfikacja podœwietlania (VDO Immo3);Mo¿emy wybraæ co ma byæ podœwietlone po przêkrêceniu zap³onu.
+Wy³¹czone,Tylko wyœwietlacze,Tylko skala,Wyœwietlacze + skala,Tylko wskazówki,Wyœwietlacze + wskazówki,Wskazówki + skala,Wszystko;
+Wszystko podœwietlone po zap³onie (VDO Immo2/VDO Immo3 Audi przed 2001);Opcja dostêpna dla VDO Immo2/Immo3 Audi przed 2001r.
+Start;
+Pytania, polubienia, wp³aty kierowaæ do:;
+Postanowienia licencyjne:;
+1. Ten program jest darmowy i na takiej zasadzie rozprowadzany.;2. Program wy³¹cznie do u¿ytku prywatnego, a nie dla celów komercyjnych.;3. Autor nie odpowiada za ewentualne szkody spowodowane tym programem.;
+Wsad nie wspierany przez program;Wsad jest niepoprawny
+Nowy wsad utworzony. Zamkn¹æ program ? ;Gotowe
+Wpisz VIN pojazdu;Mo¿esz wpisaæ VIN podczas zmiany zegarów Immo 2 na Immo 3.;Nie sprawdza poprawnoœci wpisania.;Dalej>;Wprowadzono niepoprawn¹ liczbê znaków!; B³¹d
+Benzyna (VDO Immo3 only);Wy³¹cz kontrolkê œwiec ¿arowych. U¿yj tej opcji gdy robisz swap zegarów z diesla na benzynê;Diesel (VDO Immo3 only);W³¹cz kontrolkê œwiec ¿arowych. Uzyj tej opcji kiedy robisz swap z benzyny na diesla.
+Kalibracja prêdkoœciomierza.;Wpisz wartoœæ z prêdkoœciomierza, zmierzon¹ przy prêdkoœci 100 km / h na GPS. W rezultacie wartoœæ prêdkoœciomierza jest równa prêdkoœci zmierzonej przez GPS.;km/h (VDO Immo3);Twoja prêdkoœæ przy 100km/h na GPS:
+Korekta wskazañ zbiornika paliwa.;Dotyczy tylko posiadaczy MultiMFA / ColorMFA! Nie zmienia wskaŸnika paliwa;litrów (Tylko VDO Immo3);Rzeczywista pojemnoœæ zbiornika paliwa:
+Plik ród³owy;
+B³¹d transferu do wybranego wsadu;B³¹d;B³¹d transferu do wybranego wsadu;B³¹d;B³¹d transferu do wybranego wsadu;B³¹d;B³¹d transferu do wybranego wsadu;B³¹d;B³¹d transferu do wybranego wsadu;B³¹d
+SprawdŸ aktualizacjê;Posiadasz najnowsz¹ wersjê.>Dostêpna jest nowsza wersja>Data>Aktualizowaæ?>Sprawdzenie nieudane. Spróbuj ponownie.
+Twój eeprom nie obs³guje testu wskazówek;Twój eeprom nie obs³guje testu wskazówek;Test wskazówek wy³¹czony,Test wskazówek (obr. i prêd.),Test ikon LED i wskazówek (obr i prêd.),Test wskazówek VWK503MH ROM ID - 00AB,Test ikon LED i wszystkich wskazówek,Test wszystkich wskazówek + styl DSG;Test wskazówek po przekrêceniu kluczyka;Ÿród³o:;thx to Bodie
+Zwiêksz jasnoœæ wyœwietlacza MFA:;Mo¿e pomóc w przypadku niskiej jasnoœci wyœwietlacza MFA przy wysokiej temperaturze otoczenia (po zastosowaniu wy³¹czyæ zegary na 1min);thx to elpaso544
+Proszê czekaæ, trwa aktualizacja;Aktualizacja powiod³a siê.;Aktualizacja trwa zbyt d³ugo, zamknij aplikacjê i rêcznie zaktualizuj program.;Zamknij aplikacjê i otwórz stronê pobierania
+Podziêkowania za wsparcie dla:;
+Wy³¹cz czujnik poziomu i temperatury oleju G266 (VDO Immo2/3);Wy³¹cza czujnik G266. Aby w³¹czyc zakoduj odpowiednio zegary xxx1x lub xxx2x.
+Wpisz swoje imiê :);Dnepropetrovski Octavia Tour Club
+Aktywacja powitania (Tylko pe³ny FIS - VDO Immo3);Nie dzia³a kiedy jest wyœwietlany b³¹d lub mamy aktywne ostrzeganie o niezapiêtych pasach.
+Szczegó³y;Szczegó³y dotycz¹ce ikonki tempomatu
+Transferuj ostatni¹ liczbê kodowania (k-value) (Tylko VDO Immo3);K-Value - Licznik impulsów na km
+Licznik kilometrów nad przebiegiem (Tylko VDO Immo3); Typ wyœwietlania przebiegu jak w VW503
+Nie wprowadzaj modyfikacji do nowego licznika;U¿yj tej opcji kiedy nie zamierzasz wprowadzaæ modyfikacji we wsadzie.
+Ostrze¿enie o otwartych tylnych drzwiach (Tylko VDO Immo3);Aktywuje ostrze¿enie o otwartych tylnych drzwiach.
+G³oœnoœæ dŸwiêku ostrze¿enia (VDO Immo2/3):;Ton dŸwiêku ostrze¿enia (Tylko VDO Immo3):;Styl gongu (Tylko VDO Immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Wy³;Domyœlny,Opcja 1,Opcja 2,Opcja 3;Krótki,D³ugi
+Transferuj skalê temperatury silnika (Tylko VDO Immo3);Transfer wyskalowania temperatury p³unu ch³odz¹cego;Transfer wyskalowania wskaŸnika paliwa (Tylko VDO Immo3);
+Wybierz plik do wprowadzenia modyfikacji / transferu danych;Wybierz docelowy wsad (eeprom);Plik Ÿród³owy przy starcie ?
+Gong przy otwarciu drzwi kierowcy i w³¹czonym zap³onie (VDO Immo2/3); Zostanie zmienione kodowanie kraju na Arabia Saudyjska
+Sygna³y po CAN (Tylko VDO Immo3 ): Domyœlnie,Prêdkoœæ po CAN z ABS-u (Tempomat mo¿e nie dzia³aæ),Temperatura p³ynu ch³odz¹cego po CAN z ECU,Prêdkoœæ i Temperatura po CAN;
+Wy³¹cz komunikat "Immobil activated" (VDO Immo2/3);Wy³¹cza komunikat "Immobil activated" i dŸwiêk ostrze¿enia. Przydatne przy funkcji Immo OFF w ECU.
+Ustaw licznik jako "Nowy" (Tylko VDO Immo3 Audi); Ustaw zegary jako "New or replacement cluster"
+Poka¿ œrednie zu¿ycie paliwa od 15,5 l / 100 km (VDO Immo3);Po odpaleniu pokazuje œrednie zu¿ycie od 15,5L/100km , a nie 99,9L/100km;Szczegó³y
+Jasnoœæ zegarek/licznik kilometrów (VDO Immo3):;Jasnoœæ skali (VDO Immo3):;Jasnoœæ wskazówek (VDO Immo3):;
+Inteligentne ostrze¿enie zapiêcia pasów (Immo3 VWK503):;Ostrze¿enie standardowe>Ostrze¿enie typu "US" (musi byæ kodowanie na +10xxx)>Ostrze¿enie typu Euro-NCAP (dzia³a z kodowaniem kraju na: 0,1,4);Szczegó³y
+Wy³¹cz ostrze¿enie o oszronieniu jezdni  (dla ColorMFA VDO Immo3);
+Immo Off (eeprom me7.5);Immobilaizer off w eeprom ecu (Me7.5)
+Licznikowe 90°C w zakresie:;Ustaw w jakim zakresie temperatur na liczniku ma pokazywaæ 90°C;do;°C
+Kierownica multifunkcyjna po CAN (VDO Immo3);

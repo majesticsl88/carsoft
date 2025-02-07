@@ -1,0 +1,50 @@
+Kapcsolatok és adatátviteli módok (vdo immo2/3, Bosch immo3) (MFD/MFA/FIS);Leírás weboldala
+Illesztési adatok átvitele/ECU;Mûszerfal csere során a kulcsadatok, a motor ECU-hoz való illesztése, a VIN-azonosító, az IMMO-azonosító, a bejelentkezés és a kilométerállás másolása
+Sebességmérõ adatátvitele (vdo immo2/3, Audi);Mûszerfal csere során a kalibált sebességmérõ másolása
+Kilométer számláló adatátvitele (vdo immo2/3, Audi);Mûszerfal csere során a kilométer számláló másolása
+Rádió kódjának átvitele (vdo immo2/3);A rádiókapcsolódási kódot a mûszeregység eeprom tárolja, mûszerfal csere során ezt átmásolja. Csak immo2-bõl immo2-be, vwk501-bõl vwk501-be, vwk503-ból vwk503-ba mûködik
+Maximális megtehetõ távolság kijelzése (vdo/Bosch immo3);A kijelzõn opcióként szerepel, hogy mennyi távolság tehetõ meg a pillanatnyi üzemanyag mennyiséggel
+Külsõ hõmérõ jel: Analóg jel vagy CAN (vdo immo3);
+Tempomat visszajelzõ ikon (vdo immo3); A visszajelzés csak a sebesség tartásakor aktív
+Gyújtás alatti fények (vdo immo3):;Gyújtás alatt ezek világítanak a mûszerfalon
+Semmi sem világít,LCD kijelzõk,Számlapok,LCD kijelzõk és számlapok,Mutatók,LCD kijelzõk és mutatók,Számlapok és mutatók,Minden világít;
+Gyújtás alatt minden világít (vdo immo2/immo3 audi <2001);Gyújtás alatt az LCD kijelzõk, számlapok és mutatók világítanak vdo immo2/immo3 audi <2001
+Mentés másként;
+Amennyiben szeretné, megajándékozhatja õket:;
+Licencszerzõdés:;
+1. Ez a program ingyenes és terjeszthetõ.;2. A program kizárólag magáncélú használatra használható, kereskedelmi célra nem.;3. A szerzõ nem válaszol semmilyen információra, nem vállal semmi felelõsséget ami a program használatával kapcsolatos.
+Az eeprom nem támogatott;Az eeprom hibás
+A módosított eeprom tartalom létrehozva az alábbi néven. Bezárja a programot?;Kész
+Adja meg az autó VIN azonosítóját;VIN azonosító immo2-bõl immó3-ba;VIN azonosító NINCS ellenõrizve;Következõ>;Helytelen mennyiségû karaktert adott meg!;Hiba
+Benzines (vdo immo3);Izzítás visszajelzõ tiltva. Használja ezt az opciót dízelrõl benzinesre állításnál;Dízel (vdo immo3);Izzítás visszajelzõ engedélyezve. Használja ezt az opciót benzinesrõl dízelre állításnál
+Sebességmérõ valós(abb) értékre korrigálása (vdo immo3);Írja be azt az értéket, amit GPS-szel mérve 100km/h sebességnél leolvas a mûszerfalról;km/h;GPS-szel mérve 100km/h sebességnél:
+Üzemanyag tartály korrekciója (MFA/FIS) (vdo immo3);Nem változtatja meg az üzemanyag mérõt;l;Az üzemanyag tartály tényleges térfogata:
+Tartalom megnyitása;
+Ñem tud adatot átvinni a kijelölt tartalomba;Hiba;Ñem tud adatot átvinni a kijelölt tartalomba;Hiba;Ñem tud adatot átvinni a kijelölt tartalomba;Hiba;Ñem tud adatot átvinni a kijelölt tartalomba;Hiba;Ñem tud adatot átvinni a kijelölt tartalomba;Hiba
+Frissítés ellenõrzése;A legfrissebb verziót használod>Új verzió elérhetõ>Dátum>Frissít?>Frissítés ellenõrzése sikertelen, próbáld újra késõbb, vagy manuálisan
+;;Needles sweep Off (vdo immo3),Mutatósöprés gyújtást kapcsolva (vdo immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Gyújtást kapcsolva a sebességmérõ és a fordulatszámmérõ maximumig kitér majd alaphelyzetbe áll;leírás:;Bodie
+MFA/FIS kijelzõ fényerõ növelése:;Segítséget nyújt az alacsony MFA/FIS kijelzõ fényerejében, magas környezeti hõmérséklet mellett (aktiválás után kapcsolja ki 1 percre);elpaso544
+Várj, a program frissít;A program sikeresen frissült;A frissítés nem sikerült, zárd be az alkalmazást és manuálisan frissítsd a programot;Zárd be az alkalmazást és nyisd meg a letöltési oldalt
+Köszönet a támogatásért:;
+Letiltja az olajszint- és hõmérséklet szenzort G266 (vdo immo2/3);To enable coding with oil level / temperature xxx1x and xxx2x
+Adományozás;Dnepropetrovski Octavia Tour Club
+"Welcome" üzenet gyújtást kapcsolva (FIS) (vdo immo3);Teljes méretû kijelzõnél aktiválható a "Welcome" felirat. Hiba és övfigyelmeztetés kijlzése alatt nem aktív
+leírás;Tempomat visszajelzõ leírás weboldala
+Sebességjel átvitele (K érték) (vdo immo3);A kódolás utolsó karaktere a sebességjel, K érték. Mûszerfal csere során ezt átmásolja
+Kilométer számláló javítása (vdo immo3) (vwk503);Hibás esetben mást ír ki a számláló helyett, ilyenkor ez az opció segíthet
+Átmentés a régi tartalomról, nem alkalmaz módosításokat a lenti opciók közül;Ha ez az opció aktív, csak a régi mûszeregység adatai másolhatóak át
+Hátsó ajtó figyelmeztetés (vdo immo3);
+Figyelmeztetõ hang hangereje (vdo immo2/3):;Figyelmeztetõ hang frekvenciája (vdo immo3):;Figyelmeztetõ gong stilusa (vdo immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Kikapcsolva;Alapértelmezett,1-es opció,2-es opció,3-as opció;Rövid,Hosszú
+Hûtõfolyadék hõmérséklet mérõ adatátvitele (vdo immo3);Mûszerfal csere során a kalibált hûtõfolyadék hõmérséklet mérõ másolása;Üzemanyagszint mérõ adatátvitele (vdo immo3);Mûszerfal csere során a kalibált üzemanyagszint mérõ másolása
+Válassza ki a módosítandó eeprom tartalmat;Válassza ki a lemásolandó eeprom tartalmat;Indításkor tartalom megnyitása
+Figyelmeztetõ gong nyitott söfõr ajtónál (vdo immo2/3);Gyújtás esetén nyitott sofõr ajtónál figyelmeztetõ gong jelzést ad. Akkor aktív, ha a kódolás Szaudarábia és a mûszerfal km módban van
+Can-bus funkciók (vdo immo3): Alapértelmezett,ABS sebességforrás (tempomat nem mûködik),Hûtõfolyadék hõmérséklet CAN (W8);
+Letiltja az "immobil activated" üzenetet (vdo immo2/3);Letiltja az "immobil activated" üzenetet és figyelmeztetõ hangjelzést, az Indításgátlót nem kapcsolja ki
+Mûszeregység adatátvitele (Audi immo3);Mûszeregység csere során a tartalom átmásolása
+Induló üzemanyag átlag fogyasztás 15,5L/100km (vdo immo3);Autó indításakor az üzemanyag átlag fogyasztása 99,9L/100km-rõl indul, ez módosítható 15,5L/100km-re;leírás
+LCD kijelzõk fényereje (vdo immo3):;Számlapok fényereje (vdo immo3):;Mutatók fényereje (vdo immo3):;A fényerõszabályzó maximum állásában aktív, a többi tartományban a fényerõszabályzó a megszokott módon használható
+Intelligens biztonsági öv figyelmeztetés (vdo immo3) (vwk503):;Alapértelmezett biztonsági öv figyelmeztetés>"US" stílusú biztonsági öv figyelmeztetés (kódolás értéke +10xxx)>Euro-NCAP stílus (az ország kódolása 0,1,4 valamelyike kell legyen);leírás
+Letiltja a jeges út figyelmeztetést (MFA/FIS) (vdo immo3);
+Indításgátló kikapcsolása (Bosch me7.5);Indításgátló kikapcsolása
+Hûtõfolyadék hõmérõ 90°C-ot mutat:;A hûtõfolyadék hõmérséklet muatatója 90°C-ot mutat a két tartomány között. Ha mindkét érték 90, akkor a skála teljesen lineáris. Minél kisebb a két érték különbsége, annál lineárisabb a skála.;-tól;-ig (vdo immo2/3)
+Multikormány vezérlõ Can-bus-szal (vdo immo3);Multikormány vezérlõ Can-bus-szal

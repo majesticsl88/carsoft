@@ -1,0 +1,50 @@
+Data transfer for Instrument Clusters, and mods (vdo immo2/3 and bosch-motometer immo3);Description page (link)
+Transferer les données de base pour le remplacement;Données IMMO, Numéro de série, Code PIN, Kilométrage
+Transferer la courbe vitesse(vdo immo2/3, audi);A utiliser lorsque vous voulez conserver la courbe vitesse de votre ancien compteur vers le nouveau
+Transferer la courbe compte tour (vdo immo2/3, audi);A utiliser lorsque vous voulez conserver la courbe compte tour de votre ancien compteur vers le nouveau
+Transferer code radio (vdo immo2/3);Radio matching code need to be in Cluster eeprom otherwise Radio ask to enter Login. Applicable seulement for transfer from Immo 2 to Immo 2, vw501 to vw501, vw503 to vw503
+Afficher Autonomie dans le MFA/FIS (vdo/bosch-motometer immo3);DTE
+Type d'entrée pour la sonde t° extérieure: Analogique ou CAN (vdo immo3 seulement);
+Gestion voyant régulateur de vitesse (vdo immo3);La LED s'allume seulement lorsque la vitesse est validée
+Gestion Eclairage compteur (vdo immo3 seulement);Plus connu sous le nom Eclairage Aiguilles façon "AUDI"
+Eteint,Ecrans seuls,Fonds seuls,Ecrans et Fonds seuls,Aiguilles seules,Ecrans et Aiguilles seuls,Aiguilles et Fonds seuls,Tout allumé;
+Tout allumé (vdo immo2/immo3 audi <2001);Option appliquable uniquement sur vdo immo2/immo3 audi <2001
+Lancement :);
+Questions, J'aime, Donations merci de se référer:;
+Licence agreement:;
+1. Ce logiciel est gratuit et distribué tel quel.;2. SW pour usage privé seulement et non à des fins commerciales.;3. L'auteur ne répond pas des dommages ou des informations perdus en rapport avec l'utilisation de ce logiciel.
+EEprom non supportée;Mauvaise EEprom
+Nouvelle EEprom créée. Fermer le programme? ;Valider
+Entrer le numéro de série VIN;Entrer le VIN lors de la pose d'un compteur IMMO 3 sur un véhicule IMMO 2.;There is NO checking for VIN typing correctness.;Suivant>;Le VIN comporte 17 caractères!;Erreur
+Essence (vdo immo3);Voyant préchauffage désactivé. A utiliser lors d'un SWAP compteur Diesel vers Essence;Diesel (vdo immo3 seulement);Voyant préchauffage activé. A utiliser lors d'un SWAP compteur Essence vers Diesel (si LED présente et fond de compteur avec préchauffage)
+Correction vitesse affichée.;Entrez la valeur sur l'indicateur de vitesse mesurée à 100 km/h par GPS. Comme la valeur du compteur de vitesse est égale à la vitesse mesurée par GPS.; Km/h (vdo immo3); Vitesse à 100 km/h par GPS:
+Correction indication carburant.;Pour utilisateurs de MultiMFA/ColorMFA seulement! Ne modifie pas l'aiguille de carburant;L (vdo immo3);Volume réel du réservoir de carburant à entrer:
+Ouvrir Fichier EEprom;
+Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error;Ñan not transfer data to the selected dump;Error
+Vérifier la mise à jour; Vous avez la dernière version.> Il est disponible une nouvelle version> datée> Mise à jour?> Échec de la vérification de la mise à jour. Réessayez plus tard.
+Le Balayage aiguilles n'est pas possible sur cette version de ROM compteur;Le Balayage aiguilles n'est pas possible sur cette version de ROM compteur;Needles sweep Off (vdo immo3),Balayage aiguilles (vdo immo3 seulement),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Balayage aiguilles à la mise du contact;source:;Merci à Bodie
+Augmenter Luminosité MFA:; Peut aider en cas de faible luminosité de l'écran MFA avec une température ambiante élevée (après modification il faut couper l'alimentation permanente du compteur pendant 1 min;Merci à elpaso544
+Veuillez patienter, la mise à jour est en cours…;Mise à jour réalisée avec succès.;La mise à jour dure trop longtemps, fermez l'application et mettez à jour le programme manuellement. Fermer l'application et ouvrir la page de téléchargement
+Merci pour votre soutient:;
+Désactiver le capteur de niveau d'huile et de température G266 (vdo immo2 seulement); Désactiver le capteur G266
+Ton nom ici :);Dnepropetrovski Octavia Tour Club
+Activer message "Bienvenue" sur compteur FIS (vdo immo3 seulement);Ne s'affiche pas si une alerte prioritaire est active
+détails;Détails pour la gestion de la LED du régulateur
+Transferer le dernier chiffre du codage(inclus k-value) (vdo immo3 seulement);K-Value - Nombre d'impulsions
+Totaliseur kilométrique affiché en partie haute et en plus gros (vdo immo3 seulement); Affichage Totaliseur de type T5, Passat 3BG.... VWK503...
+Ne pas conserver les réglages pour le prochain fichier;Cocher pour ne pas sauvegarder les séléctions
+Alarme de porte arrière (vdo immo3 seulement); Alarme de porte arrière
+Volume sonore (vdo immo2/3):;Fréquence sonore (vdo immo3 seulement):;Style de GONG (vdo immo3 seulement):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Off;Défaut,Option 1,Option 2,Option 3;Court,Long
+Transferer la courbe température d'eau (vdo immo3 seulement);Transferer la courbe de jauge à carburant (vdo immo3 seulement);Transferer la courbe de jauge à carburant
+Sélectionner fichier EEprom pour le transfer de données ou de modifications appliqués;Sélectionner la destination du fichier EEprom;Choisir le fichier source au lancement
+Gong d'info (vdo immo2/3);Gong d'info — son avec porte conducteur ouverte et clef en position contact
+Réglages Can bus (vdo immo3 seulement): Défaut,Signal de vitesse par l'ABS (dependant de l'ECU moteur,Signal de température d'eau par le CAN (pour compteur W8);
+Désactiver le message "ANTIDEMARRAGE ACTIF" (vdo immo2/3);Ne désactive pas la LED clignotante. Utilisé lors de SWAP par exemple avec IMMO OFF dans l'ECU moteur.
+Définir en statut compteur "NEUF" (vdo immo3 audi seulement);Adaptation plus facile lors du remplacement du compteur
+1ère conso. moyenne à 15,5L/100km au lieu de 99.9L/100km (vdo immo3);details
+Luminositée des deux écrans LCD (horloge et kilometrage) (vdo immo3):;Luminositée des Fonds (vdo immo3):;Luminositée des Aiguilles (vdo immo3):
+Alerte ceinture "intelligente" (immo3 vwk503 seulement):;Alerte ceinture "basique">Alerte ceinture "Style US" (codage en +10xxx)>Alerte ceinture "Euro-NCAP" (Fonctionne dans les pays avec codage 0,1,4);details
+Désactiver l'alerte de la glace noire (pour ColorMFA vdo immo3);
+Immo Off (eeprom me7.5);Immo off dans eeprom ecu (Me7.5)
+La T indique 90°C dans la plage:;La température de refroidissement indique 90°C dans la plage suivante;jusqu'à;°C (vdo immo2/3)
+Roues avec CAN (vdo immo3):;Roues équipées de relais CAN

@@ -1,0 +1,50 @@
+Prenos dat pre budiky, a mody (VDO immo2/3 a bosch-motometer immo3);Stranka popisu (odkaz)
+Prenasat zhodne data pri vymene budikov/ECU;data klucov, zhoda s elektronikou motora, VIN cislo, IMMO ID, Login, Prejdene KM
+Prenos dat otackomeru (vdo immo2/3, audi);Pouzite tuto moznosù ked menite rozsah stupnice otackomeru zo starych na nove budiky
+Prenos dat rychlomeru (vdo immo2/3, audi);Pouzite tuto moznost ked menite rozsah stupnice rychlomeru zo starych na nove budiky
+Prenos kodu autoradia (vdo immo2/3);Kod radia musi byt ulozeny v EEPROM budikov inak bude vyzadovaù radio zadat kod. Pouzitelne pre Immo 2 to Immo 2, vw501 do vw501, vw503 do vw503
+Dojazd na nadrz (vdo/bosch-motometer immo3);DTE
+Vymenit zdroj vonkajsej teploty: Analogovy signal alebo CAN (iba VDO immo3);Snimac vonkajsej teploty: Analogovy signal alebo CAN (iba VDO immo3)
+Mod indik·cie kontrolky Tempomatu (iba VDO immo3);LED Tempomatu svieti, az ked je nastavena rychlost /SET/
+Podsvietenie budikov (iba VDO immo3); Podsvitenie ruciciek, displejov, cifernikov, kombinacie
+Vypnute,Iba displeje,Iba stupnice,Iba stupnice a displeje,Iba rucicky,Iba rucicky a displeje,Rucicky a stupnice,Zapnute vsetko;
+Vsetko zapnutÈ (VDO immo2/immo3 audi <2001);PouzitelnÈ len na budikoch vdo immo2/immo3 audi <2001
+Vytvorit nov˙ eeprom;
+Vsetky otazky, podakovanie, financna podpora:;
+Licencne podmienky:;
+1. Tento SW je freeware a dostupny tak ako je.;2. SW pre osobne pouzitie, zakaz komercneho vyuzivania.;3. Autor nenesie ziadnu zodpovednost za skody sposobene neodbornym pouzitim tohto SW.
+Eeprom nieje podporovana;Eeprom nieje spravna
+Nova eeprom vytvorena. Zatvorit program? ;OK
+Zadajte VIN cislo vozidla;Mozete zadat VIN cislo pocas vymeny budikov z immo 2 na immo 3.;Neexistuje ziadna kontrola spravnosti VIN.;Dalej>;Zadany velky pocet znakov!;Chyba
+Benzin (iba VDO immo3);Kontrolka zhavenia deaktivovana. Pouzite tuto moznost pri vymene z naftovych na benzinove budiky;Diesel (iba VDO immo3);Kontrolka zhavenia aktivovana. Pouzite tuto moznost pri vymene z benzinovych na naftove
+Kalibracia realnej rychlosti na tachometri.;Zadajte presnu hodnotu na tachometri pri dosiahnuti 100km/h na GPS. Vysledok je zobrazenie realnej rychlosi podla GPS na tachometri.;km/h (VDO immo3);Rychlost na tachomteri pri  100km/h GPS:
+Korekcia ukazovatela paliva.;Pouzitelne iba pre MultiMFA/ColorMFA! Nezmeni pohyb rucicky ukazovatela paliva;(iba VDO immo3);Zadajte skutocny objem nadrze:
+Zdrojov˝ s˙bor;
+Nejde preniest data do zvoleneho dumpu;Chyba;Nejde preniest data do zvoleneho dumpu;Chyba;Nejde preniest data do zvoleneho dumpu;Chyba;Nejde preniest data do zvoleneho dumpu;Chyba;Nejde preniest data do zvoleneho dumpu;Chyba
+Pozri aktualizaciu;Mas najnovsiu verziu.>Je dostupna nova verzia>dated>Aktualizacia?>Aktualizacia sa nepodarila. Skuste znovu neskor.
+Pretocenie ruciciek nepodporuje tvoju ROM ID budikov;Pretocenie ruciciek nepodporuje tvoju ROM ID budikov;Needles sweep Off (vdo immo3),Pretocenie ruciciek-staging (iba VDO immo3),Needles sweep LED (vdo immo3),Needles sweep vwk503mh ROM ID - 00AB,ALL Needles sweep and LED (vdo immo3),Needle sweep & DSG needles (vdo immo3);Pretocenie ruciciek po otoceni kluca;zdroj:;Bodie
+Zlepsenie citatelnosti MAXI/POLODOT displeja:;Moze pomocù zlepsit viditelnost displeja (na aplikaciu vypnite zapalovanie a pockajte 30 sekund);elpaso544
+Cakajte prosim, program sa aktualizujeÖ;Program uspesne aktualizovany.;Aktualizacia trva prilis dlho, zatvorte program a spustite aktualizaciu manualne.;Zatvorte program a spustite stranku pre stahovanie
+Dakujem za podporu:;
+Deaktivovat senzor oleja G266 (iba VDO immo2/3);Deaktivuje senzor G266. Na aktivaciu kodovania s olej. senzorom / teplota xxx1x and xxx2x
+Vpiste svoje meno :);Dnepropetrovski Octavia Tour Club
+"WELCOME" sprava po zapnuti zapalovania (iba MAXIDOT) (iba VDO immo3);NefunkcnÈ pokial mate aktivovany senzor nezapnuteho pasu (funguje pokial sa pred zapnutim zapalovania priputate), NefunkcnÈ pri jazyku CZ, treba zvolit iny jazyk.
+detaily;Detaily modu kontrolky tempomatu
+Preniest poslednu cislicu kodovania SW (vratane K-hodnoty) (iba vdo immo3); hodnota K - cislo impulznej vzdialenosti
+Pocitadlo prejdenej vzdialenosti na vrchu (iba VDO immo3); Odometer displej typ vw503
+Neaplikovat mody do noveho dumpu;Oznac tuto moznost pokial nechces aplikovat mody
+Varovanie otvoren˝ch 5tych dverÌ (iba VDO immo3);Varovny signal otvorenych 5 dveri
+Hlasitost (VDO immo2/3):;Frekvencia zvuku (iba VDO immo3):;Styl gongu (iba VDO immo3):;100%,90%,80%,70%,60%,50%,40%,30%,20%,10%,Vypnute;Standard,Moznost 1,Moznost 2,Moznost 3;Kratky,Dlhy
+Kalibracia teploty motora (iba VDO immo3);Kalibracia meraca teploty motora;Kalibracia palivomeru (iba VDO immo3);Kalibracia palivomeru
+Zvolte zdrojovy dump pre prenos dat alebo modu;Vyber cielovy dump;Zvol zdrojovy s˙bor pri spusteni
+Sposob gongu (vdo immo2/3);Sposob gongu ó gonguje pokial je kluc v zapalovani a su otvorene dvere
+Zbernica CAN BUS (iba VDO immo3): Standardne,ABS ako senzor r˝chlosti (mozno znefunkcni tempomat),Teplota chladiacej kvapaliny po CAN (Pre budiky passat W8);
+Deaktivacia hlasky "imobilizer aktivny" (VDO immo2/3);Deaktivuje hl·sku "imobilizer aktivny" a otravne pipanie, LED IMMO vsak blik· st·le. Pouzite naplast pokial bolo v RJ motora robeny IMMO OFF.
+Nastavit budiky ako nove (iba VDO immo3 AUDI); Nastavenie ako novÈ budiky (Nove alebo vymienane budiky)
+Zobrazenie priemernej spotreby od 15,5L/100km (VDO immo3);Pri studenom motore ukazuje priemernu spotrebu na volnobehu od 15,5L/100km namiesto 99,9L/100km;detaily
+Jas displejov (VDO immo3):;Jas stupnic (VDO immo3):;Jas ruciciek (VDO immo3):;Funguje korektne pokial nepouzivate manualne ovladanie jasu (Reostat)
+Inteligentne upozornenie na bezpecnostny pas (iba immo3 vwk503):;Zakladne upozornenie na bezpecnostny pas>"americky styl" Upozornenie pasov (musi byt kodovane +10xxx)>Euro-NCAP styl (pracuje s krajinami kodovania 0,1,4);detaily
+Deaktivacia varovania namrazy pod 4st.(iba pre VDO ColorMFA immo 3);
+Immo Off (eeprom me7.5);Immobilizer off v eeprom ecu (Me7.5)
+Rucicka ukazuje 90 ∞ v rozsahu:;Teplota chl. vody ukazuje 90 st.C v tomto rozsahu;do;st.C (vdo immo2/3)
+Multi-wheel s CAN-bus (vdo immo3);Multi-wheel vybavene CAN rele

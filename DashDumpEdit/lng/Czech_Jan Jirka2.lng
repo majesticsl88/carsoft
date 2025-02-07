@@ -1,0 +1,47 @@
+Přenos dat pro budíky a módy (VDO immo2/3 a Bosch-Motometer immo3); Stránka popisu (odkaz)**  
+Přenos shodných dat při výměně budíků; data klíčů, shoda s elektronikou motoru, VIN číslo, IMMO ID, Login, Ujeté KM.  
+Přenos dat otáčkoměru (VDO immo2/3, Audi); Použijte tuto možnost, když měníte rozsah stupnice otáčkoměru ze starých na nové budíky.  
+Přenos dat rychloměru (VDO immo2/3, Audi); Použijte tuto možnost, když měníte rozsah stupnice rychloměru ze starých na nové budíky.  
+Přenos kódu autorádia (VDO immo2/3); Kód rádia musí být uložený v EEPROM budíků, jinak bude vyžadovat rádio zadat kód. Použitelné pro Immo 2 to Immo 2, VW501 do VW501, VW503 do VW503.  
+Dojezd na nádrž (VDO/Bosch-Motometer immo3); DTE.  
+Spínač venkovní teploty: Analogový signál nebo CAN (pouze VDO immo3); Spínač venkovní teploty: Analogový signál nebo CAN (probíhá testování) (pouze VDO immo3).  
+Mód indikace tempomatu (pouze VDO immo3); LED tempomatu svítí, když je nastavena rychlost.  
+Podsvícení budíků (pouze VDO immo3); Také známé jako "podsvícení ručiček", protože toto je nejčastěji vybraná volba.  
+Vypnutí, pouze displeje, pouze stupnice, pouze stupnice a displeje, pouze ručičky, pouze ručičky a displeje, Ručičky a stupnice, Zapnuté všechno;  
+Všechno zapnuté (VDO immo2/immo3 Audi <2001); Použitelné jen na budících VDO immo2/immo3 Audi <2001.  
+Start :);  
+Všechny otázky, poděkování, Finanční podpora projektu:;  
+Licenční podmínky:;  
+1. Tento SW je freeware.; 2. SW pro osobní použití, zákaz komerčního využívání.; 3. Autor nenese žádnou zodpovědnost za škody způsobené neodborným použitím tohoto SW.  
+EEPROM není podporovaná; EEPROM není správná.  
+Nová EEPROM vytvořená. Zavřít program? ;OK.  
+Zadejte VIN číslo vozidla; Můžete zadat VIN číslo během výměny budíků z immo 2 na immo 3.; Neexistuje žádná kontrola správnosti VIN.; Další>; Zadaný velký počet znaků!; Chyba.  
+Benzín (jen VDO immo3); Kontrolka žhavení deaktivovaná. Použijte tuto možnost při výměně z naftových na benzínové budíky; Diesel (pouze VDO immo3); Kontrolka žhavení aktivovaná. Použijte tuto možnost při výměně z benzínových na naftové.  
+Kalibrace reálné rychlosti.; Zadejte hodnotu na tachometru 100 km/h jako GPS. Výsledek je zobrazená reálná rychlost podle GPS na tachometru.; km/h (VDO immo3); Vaše rychlost od 100 km/h podle GPS:.  
+Korekce ukazatele paliva.; Použitelné pouze pro MAXIDOT/ColorMFA! Nezmění ukazatel paliva; l (pouze VDO immo3); Zadejte skutečný objem nádrže:.  
+Zdrojový soubor EEPROM;  
+Cannot transfer data to the selected dump; Chyba; Cannot transfer data to the selected dump; Chyba; Cannot transfer data to the selected dump; Chyba; Cannot transfer data to the selected dump; Chyba; Cannot transfer data to the selected dump; Chyba.  
+Viz aktualizace; Má nejnovější verzi.>Je dostupná nová verze>dated>Aktualizace?>Aktualizace se nepodařila. Zkuste znovu později.  
+Protočení ručiček nepodporuje tvoje ROM ID budíků; Protočení ručiček nepodporuje tvoje ROM ID budíků; Needles sweep Off (VDO immo3), Protočení ručiček-needle sweep (pouze VDO immo3), Needles sweep LED (VDO immo3), Needles sweep vwk503mh ROM ID - 00AB, ALL Needles sweep and LED (VDO immo3), Needle sweep & DSG needles (VDO immo3); Protočení ručiček po otočení klíčku (pouze VDO immo3); zdroj:; thx to Bodie.  
+Zlepšení čitelnosti MAXI/POLODOT displeje:; Může pomoct zlepšit viditelnost displeje (na aplikaci vypněte zapalování a počkejte 10 sekund); thx to elpaso544.  
+Čekejte prosím, program se aktualizuje…; Program úspěšně aktualizovaný.; Aktualizace trvá příliš dlouho, zavřete program a spusťte aktualizaci manuálně.; Zavřete program a spusťte stránku pro stahování.  
+Děkuji za podporu:;  
+Deaktivovat senzor oleje G266 (pouze VDO immo2/3); Deaktivuje senzor G266. To enable coding with oil level / temperature xxx1x and xxx2x.  
+Vpište svoje jméno :); Dnepropetrovskij Octavia Tour Club.  
+"Vítejte" zpráva po zapnutí zapalování (pouze MAXIDOT) (pouze VDO immo3); Nefunkční pokud máte aktivovaný senzor nezapnutého pásu.  
+Detaily; Detaily módu LED tempomatu.  
+Přenést poslední číslici kódování SW (vrácení k-hodnoty) (pouze VDO immo3); Hodnota K - číslo impulsní vzdálenosti.  
+Počítadlo ujeté vzdálenosti na vrchu (pouze VDO immo3); Odometer displej typ VW503.  
+Neaplikovat módy do nového dumpu; Označ tuto možnost pokud nechceš aplikovat módy.  
+Varování otevřených 5. dveří (pouze VDO immo3); Varovný signál otevřených 5 dveří.  
+Hlasitost (VDO immo2/3):; Frekvence zvuku (pouze VDO immo3):; Styl gongu (pouze VDO immo3):; 100%, 90%, 80%, 70%, 60%, 50%, 40%, 30%, 20%, 10%, Vypnuté; Standard, Možnost 1, Možnost 2, Možnost 3; Krátké, Dlouhé.  
+Kalibrace teploty motoru (pouze VDO immo3); Kalibrace ukazatele teploty motoru; Kalibrace palivoměru (pouze VDO immo3); Kalibrace palivoměru.  
+Zvolte výchozí dump pro přenos dat nebo módu; Vyber cílový dump; Zvol zdrojový soubor při spuštění.  
+Způsob gongu (VDO immo2/3); Způsob gongu – gonguje pokud je klíč v zapalování a jsou otevřené dveře.  
+Funkce sběrnice CAN BUS (pouze VDO immo3): Standardní, ABS jako senzor rychlosti (možné znefunkčnění tempomatu), Teplota chladicí kapaliny po CAN (pro W8 clusters).  
+Deaktivace hlášky "imobilizér aktivovaný" (VDO immo2/3); Deaktivuje hlášku "imobilizér aktivovaný" a otravné pípání. Použijte v případě, pokud byl v ŘJ motoru dělán IMMO OFF.  
+Nastavit budíky jako nové (pouze VDO immo3 Audi); Nastavení restore default jako nové budíky (Nové nebo vyměněné budíky).  
+Oprava okamžité spotřeby 15,5L/100 km (VDO immo3); Studený motor ukazuje aktuální spotřebu na volnoběhu maximálně 15,5L/100 km namísto 99,9L/100 km; Detaily.  
+Jas displeje (VDO immo3):; Jas stupnic (VDO immo3):; Jas ručiček (VDO immo3):; Funguje korektně pokud nepoužíváte manuální ovládání jasu (Reostat).  
+Inteligentní upozornění na bezpečnostní pás (pouze immo3 vwk503):; Základní upozornění na bezpečnostní pás >"americký styl" upozornění pásů (musí být kódované +10xxx) > Euro-NCAP styl (pracuje s krajinami kódování 0,1,4); Detaily.  
+Deaktivace varování námrazy (pouze pro VDO ColorMFA immo3);
